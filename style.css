@@ -1,0 +1,147 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-image: url(img/peakpx.jpg)
+}
+
+#fondo {
+    width: 1340px;
+    height: 1580px;
+    background-color: rgba(255, 255, 255, 0.97);
+    border: 1px solid rgba(128, 128, 128, 0.5) ;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+#Menu {
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgb(9, 122, 126);
+    width: 250px;
+    height: 1560px;
+    border-radius: 8px;
+    color: white;
+    float: left;
+    display: block;
+    font-size: 18px;
+}
+
+#Menu img {
+    width: 250px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+#Menu .target {
+    margin: 15px;
+}
+
+.target ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.target li {
+    margin: 20px;
+}
+
+#header {  
+    margin-top: 80px;
+    margin-left: 30px;
+    float: left;
+}
+
+#header h1 {
+    color:rgb(9, 122, 126);
+    margin-left: 310px;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+#header h3 {
+    margin-left: 460px;
+}
+
+#header hr {
+    margin-right: 15px;
+}
+
+#contenido {
+    width: 1060px;
+    float: left;
+}
+
+#contenido li {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.outro {
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 7px;
+}
+
+.duracion {
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+.elemento {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.info {
+    margin-left: 50px;
+}
+
+#contenido h3 {
+    padding-left: 40px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: rgb(9, 122, 126);
+}
+
+#contenido h4 {
+    font-size: 25px;
+}
+
+#contenido p {
+    font-size: 18px;
+}
+
+
+#contenido ul {
+    list-style: none;
+    padding-left: 30px;
+}
+
+i {
+    margin-top: 18px;
+    color: rgb(9, 122, 126);
+}
+
+
+#contenido hr {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    color: rgb(9, 122, 126);
+    border: solid 1px rgb(9, 122, 126);
+}
+
+.conocimientos img {
+    height: 50px;
+    margin: 10px 30px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
